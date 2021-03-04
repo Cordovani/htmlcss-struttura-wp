@@ -1,0 +1,28 @@
+header {
+    background-color: fuchsia;
+}
+
+.main-hero {
+    /* meglio senape */
+    background-color: yellow;
+}
+
+.grid {
+    background-color: lightblue;
+}
+
+.grid-background {
+    background-color: blue;
+}
+
+footer {
+    background-color: violet;
+}
+
+
+/* clearfix */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
